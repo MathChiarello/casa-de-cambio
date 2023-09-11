@@ -16,6 +16,7 @@
   "type": "module",
   "dependencies": {
     "@trybe/eslint-config-frontend": "^1.11.4",
+    "sweetalert2": "^11.7.27",
     "vite": "^4.4.9"
   },
   "devDependencies": {

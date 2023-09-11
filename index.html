@@ -4,9 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="src/main.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Ysabeau+Infant:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo-coin.png">
   <title>Casa de Câmbio</title>
 </head>
 <body>
-  <h1>Casa de Câmbio</h1>
+  <h1>Casa de <a>Câmbio</a></h1>
+  <p>Digite a moeda:</p>
+  <section id="form-container">
+    <form action="">
+      <input type="text" name="textCoin" id="textCoin" placeholder="USD">
+      <button type="button" id="selectCoin"><b>Pesquisar</b></button>
+    </form>
+  </section>
+    <main>
+      <h2 id="text"></h2>
+      <section id="coins"></section>
+    </main>
 </body>
 </html>
